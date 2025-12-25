@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="quiz2번.html">
+        <table border="0">
+           <tr>
+            <td>
+                다음 <span style="background-color: goldenrod;">내용에 맞게</span> 입력하시오<br>
+                전공 분야를 입력하세요 
+                <select size="1">
+                   <option>소프트웨어</option>
+                </select><br>
+                <label for="name">이름</label>&nbsp; <input id="name"><br>
+                아이디 <input><br>
+                비밀번호 <input><br>
+            </td>
+            <td>
+                <a href="quiz2번.html" title="quiz2번 이동">
+                    <img src="다운로드.jpg" width="150px" height="150px">
+                </a>
+            </td>
+           </tr>
+           <tr>
+            <td colspan="2">
+                <fieldset>
+                    <legend>성별 조사</legend>
+                    <label for="m">여성</label>
+                    <input id="m" type="radio" name="gender" checked>
+                    남성<input type="radio" name="gender">
+                </fieldset>
+                 <fieldset>
+                    <legend>취미 조사</legend>
+                    <label for="b">책</label>
+                    <input id="b" type="checkbox" checked>
+                    멍<input type="checkbox">
+                </fieldset>
+                <fieldset>
+                    <legend>하고 싶은 말</legend>
+                    <textarea cols="50"></textarea>
+                </fieldset>
+                <input type="submit" value="전송">
+                <input type="reset" value="취소">
+            </td>
+           </tr>
+        </table>
+    </form>
+</body>
+</html>
